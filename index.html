@@ -4,21 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/72bb2b0080.js"
+      crossorigin="anonymous"
+    ></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-    <script
-      src="https://kit.fontawesome.com/72bb2b0080.js"
-      crossorigin="anonymous"
-    ></script>
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="side-menu" id="side-nav">
+      <button class="close-btn" onclick="closeSideButton()">&times;</button>
+      <div class="side-menu-list">
+        <button>Sport</button>
+        <button>Tech</button>
+        <button>World</button>
+        <button>Finance</button>
+        <button>Politics</button>
+        <button>BUsiness</button>
+        <button>Economics</button>
+        <button>Entertainment</button>
+        <button>Beauty</button>
+        <button>Travel</button>
+        <button>Music</button>
+        <button>Food</button>
+        <button>Science</button>
+        <button>Gaming</button>
+        <button>Energy</button>
+      </div>
+    </div>
     <section class="container">
       <section>
+        <div>
+          <i class="fa-solid fa-bars hamburger" onclick="openSideButton()"></i>
+          <i class="fa-solid fa-magnifying-glass" onclick="searchIcon()"></i>
+          <span id="search-area">
+            <input type="text" />
+            <button>Go</button>
+          </span>
+        </div>
         <div class="head-line">
           <svg viewBox="0 0 184 25" fill="#000">
             <path
@@ -52,9 +81,13 @@
               src="https://i.namu.wiki/i/wudK4UqFGb2OwUVleo0WSqJSsLqOuQr53EAvnETbLBHrCncuxIo6bvcel5kFEKtsgUHT1-pwDRhOatUHKGWD9g_UqBogizMkotQgrMs__CkrOSMy5BNc4hxGGSKdr3XEhEr1ljrmkBtptEA0HJa1ww.webp"
             />
           </div>
+
           <div class="col-lg-8">
             <h2>뉴진스 컴백 가능성</h2>
-            <p>인스타 업데이트 등 최근 활동을 보아 가능성이 보인다.</p>
+            <p>
+              인스타 업데이트 등 최근 활동을 보아 가능성이 보인다. 버니즈로써
+              기대 중
+            </p>
             <div>YBS * 2025-09-17</div>
           </div>
         </div>
