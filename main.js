@@ -1,4 +1,4 @@
-const API_KEY = `4a54a306c22d41b3a3845502b5c0aedc`;
+const API_KEY = ``;
 let news = [];
 
 const getLatestNews = async () => {
